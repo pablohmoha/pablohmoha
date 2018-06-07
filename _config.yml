@@ -25,14 +25,6 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "pablohmoha/pablohmoha.github.io"
 teaser                   : "/assets/images/500x300.png" # path of fallback teaser image, e.g. 
 # breadcrumbs            : false # true, false (default)
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      read_time: true
-      comments: true
 words_per_minute         : 200
 comments: 
   provider               :  "staticman_v2" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
@@ -85,9 +77,9 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : pablohmoha
 facebook:
-  username               :
+  username               : pablohmoha
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
@@ -108,26 +100,26 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Paul Muhia"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  bio              : "Curious to learn."
+  location         : "Nairobi"
+  email            : "pamnjoh@gmail.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "pablohmoha"
   foursquare       :
-  github           :
+  github           : "pablohmoha"
   gitlab           :
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         :  "paulmuhia" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
@@ -274,6 +266,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments:  true
       share: true
       related: true
